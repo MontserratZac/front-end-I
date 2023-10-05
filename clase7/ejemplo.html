@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo: position:sticky</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto   
+        }
+        header,footer,main{
+            text-align: center;
+            color: white;
+        }
+        header,footer,.main-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header{
+            background: red;
+        }
+        footer{
+            background-color: blue;
+            height: 400px;
+        }
+        main.container {
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
+        .main-wrapper{
+            background: #746a6a;
+            height: 1000px;
+        }
+        .sidebar-wrapper{
+            background:#ff6a00;
+        }
+        .contenido-sticky{
+            background: green;
+            position: sticky;
+            top:0;
+        }
+        h1{
+            padding: 2rem 3rem;
+        }
+        p{
+            padding: 0 3rem 1rem 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class ="container">
+        <h1>HEADER</h1>
+    </header>
+    <main class ="container">
+        <div class="main-wrapper">
+            <h1>MAIN CONTENT</h1>
+        </div>
+        <div class="sidebar-wrapper">
+            <div class="contenido-sticky">
+                <h1>SIDEBAR CONTENT</h1>
+            </div>
+            <h1>SIDEBAR</h1>
+        </div>
+    </main>
+    <footer class ="container">
+        <h1>FOOTER</h1>
+    </footer>
+</body>
+</html>

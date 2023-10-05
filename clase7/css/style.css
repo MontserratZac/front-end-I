@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 300px;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 38px;
+    margin: 0px;
+}
+
+.heroes {
+    background-color: #00669F;
+    border: 1px solid #000000;
+    /* display: inline-block; */
+    height: 101px;
+    position: sticky;
+    top: 0;
+    width: 1024px;
+}
+
+.container {
+    margin: 0px 0px 191px;
+    padding: 0px 2px;
+    width: 1024px;
+    height: 530px;
+}
+
+.portada {
+    border-radius: 16px 16px 0px 0px;
+    height: 194px;
+    width: 300px;
+}
+
+.corazon {
+    position: absolute;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: -270px;
+}
+
+.foto {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: -225px;
+    z-index: 2;
+    border-radius: 50%;
+    width: 122px;
+    height: 120px;
+}
+
+.card {
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    margin-left: 30px;
+    
+}
+
+.rectangulo {
+    margin-top: 0px;
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    margin-top: -4px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.104);
+}
+
+h2 {
+    position: relative;
+    margin-top: 96px;
+    margin-bottom: 10px;
+    height: 35px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8px;
+    height: 113px;
+}
+
+button {
+    margin-top: 23px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15PX;
+    height: 48.52px;
+    width: 128.78px;
+    border-color: #00669F;
+    font-style: normal;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.104);
+}
+
+footer {
+    width: 1024px;
+    height: 51px;
+    background-color: #00669F;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.derechos {
+    color: #FFF9F9;
+    font-size: 16px;
+    margin-left: 16px;
+    padding-top: 16px;
+}
