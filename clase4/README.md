@@ -1,4 +1,4 @@
-# Momento de maquetado
+# Receta de Pay de Limón - Momento de maquetado
 
 Utilizando del siguiente figma, la idea será reconocer cuáles podrían ser los diferentes
 elementos o etiquetas que corresponden a ese resultado visual. Una vez hecho esto,
