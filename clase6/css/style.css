@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url('../img/background-milky-way.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+h1, h2, a, ul, i, .descripcion{
+    background-color: rgba(100,149,237,0.5);
+    color: khaki;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    margin: 20px 0px;
+}
+
+h2 {
+    margin: 20px 0px;
+    font-size: 35px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 30px;
+    color: rgb(219, 200, 137);
+    font-weight: 500;
+    list-style: none;
+    margin: 20px 0px;
+    padding: 20px 0px 20px 50px;
+    line-height: 45px;
+}
+
+footer {
+    
+    font-size: 40px;
+    background-color: rgba(100,149,237,0.8);
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3, .derechos {
+    font-size: 25px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.descripcion {
+    font-size: 25px;
+    padding: 40px;
+    color: rgb(219, 200, 137);
+}
+
+i {
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+}
+
+.pagina-principal {
+    margin: 40px;
+}
